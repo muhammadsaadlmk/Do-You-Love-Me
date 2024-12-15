@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/background.jpg");
+    background-image: url("./background.jpg"); /* Adjusted path */
     background-size: cover;
     background-position: center;
     display: flex;
