@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Center content */
+.content {
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    background-color: hsl(0, 88%, 51%);
+    color: white;
+    padding: 15px 32px;
+    font-size: 24px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Button container */
+.button-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button styling */
+input[type="button"] {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
